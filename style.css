@@ -48,8 +48,8 @@ a{
 }
 
 .productos{
-text-align: center;
-margin-top: 5%;
+    text-align: center;
+    margin-top: 5%;
 }
 
 .gridPadre{
@@ -80,6 +80,7 @@ margin-top: 5%;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border: solid 1px rgba(255, 192, 58, 0.815);
 }
 
 .footer{
