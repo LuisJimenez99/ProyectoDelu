@@ -28,41 +28,83 @@
         <li><a href="./paginas/contacto.html">Contacto</a></li>
     </ul>
 </nav> -->
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">DELU</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Paginas/Productos.html">Productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Paginas/Productos.html">Precios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Paginas/Productos.html">Sobre nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Paginas/Productos.html">Contacto</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                  <button class="btn btn-outline" type="submit">Buscar</button>
-                </form>
-              </div>
+                <a class="navbar-brand" href="#">DELU</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Paginas/Productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Paginas/precios.html">Precios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Paginas/sobre-nosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Paginas/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline" type="submit">Buscar</button>
+                    </form>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
-    <main class="carrousel">
+    <main>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide mx-auto my-5" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./Imagenes/TAZA GREYS.png" class="d-block w-100 greys" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./Imagenes/TAZA WINNIE.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Imagenes/TAZA PIKACHU.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Imagenes/taza.jpg" class="d-block w-100" alt="...">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Antes</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Despues</span>
+            </button>
+        </div>
+    </main>
+    <!-- <main class="carrousel">
         <img src="./Imagenes/cuadroconstelacion2.jpg" alt="cuadro de constelacion" class="carrouselFoto">
         <img src="./Imagenes/Cuadromama.jpg" alt="cuadro dia de la madre" class="carrouselFoto">
         <img src="./Imagenes/fotos10x10.jpg" alt="fotos diez por diez" class="carrouselFoto">
@@ -70,16 +112,14 @@
         <img src="./Imagenes/taza.jpg" alt="taza floricienta" class="carrouselFoto">
         <img src="./Imagenes/TAZA GREYS.png" alt="Imagen taza Greys anatomy" class="carrouselFoto">
         <img src="./Imagenes/TAZA PIKACHU.png" alt="Imagen taza Pikachu" class="carrouselFoto">
-        <img src="./Imagenes/TAZA SQUIRTLE.png" alt="Imagen taza Squirtle" class="carrouselFoto">
+        <img src="../Imagenes/TAZA PIKACHU.png" alt="Imagen taza Squirtle" class="carrouselFoto">
         <img src="./Imagenes/TAZA WINNIE.png" alt="Imagen taza Winnie" class="carrouselFoto">
-
-
-    </main>
+    </main> -->
 
 
     <section>
         <div class="productos">
-            <h2>Productos</h2>
+            <h2>Productos </h2  >
         </div>
         <Div class="gridPadre">
             <div> <img src="./Imagenes/TAZA GREYS.png" alt="Imagen taza Greys anatomy" class="gridItem uno"> </div>
@@ -92,21 +132,19 @@
     </section>
 
 
-    <footer class="footer">
-        <div>
-            <li><a href="https://www.instagram.com/delu.photos/?hl=es" img target="_blank" class="instagram">
+    <footer>
+        <ul class="redes">
+            <li>
+                <a href="https://www.facebook.com/Delu-Photos-612923289153570" target="_blank" class="instagram">
                     <i class="fab fa-instagram fa-2x"></i>
-                </a>
-            </li>
-            <div>
-                <li><a href="https://www.facebook.com/Delu-Photos-612923289153570" target="_blank" class="facebook">
-                        <i class="fab fa-facebook-f fa-2x"></i>
-                    </a>
-                </li>
-            </div>
-
-        </div>
+        </ul>
+        <ul class="redes">
+            <li>
+                <a href="https://www.facebook.com/Delu-Photos-612923289153570" target="_blank" class="facebook">
+                    <i class="fab fa-facebook-f fa-2x"></i></a>
+        </ul>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>
