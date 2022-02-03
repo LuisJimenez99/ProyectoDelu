@@ -3,8 +3,6 @@
     padding: 0;
 }
 
-
-
 body{
     height: 100vh;
     font-family:'Playfair Display', serif;
@@ -14,31 +12,55 @@ body{
 .logoNav{
     width: 50px;
 }
-.navegacion{
+
+.navbar{
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+.navbar-nav{
+    margin: auto;
+}
+.nav-link{
+    color: white;
+}
+.navbar-brand{
+    color:rgba(252, 172, 0, 0.897);
+}
+.navbar-brand:hover{
+    color: rgba(252, 172, 0, 0.897);
+}
+.nav-link:hover{
+    color: rgba(252, 172, 0, 0.897);
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.btn{
+    border:solid 1px white;
+}
+.btn-outline{
+    color:rgba(252, 172, 0, 0.897);
+}
+.btn-outline:hover{
+    color: white;
+}
+/* .navegacion{
     list-style: none;
     width: 50%;
     margin: auto
-}
-nav{
-    height: 20%;
-        
-        background: #9298af;
+} */
+   
       
         
-        background: -webkit-linear-gradient(to right, rgba(146, 152, 175, 0.55), rgba(166, 166, 166, 0.55));
-      
-        
-        background: linear-gradient(to right, rgba(146, 152, 175, 0.55), rgba(166, 166, 166, 0.55))
-}
 
-li{
+/* li{
     display: inline;
     margin: 2%;
-}
+} */
 
-a{
+/* a{
     text-decoration: none;
-}
+} */
 .carrousel{
     display: flex;
     overflow-x: scroll;
