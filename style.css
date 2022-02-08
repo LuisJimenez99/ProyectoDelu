@@ -12,25 +12,36 @@ body{
 .logoNav{
     width: 50px;
 }
-
-.navbar{
-    height: 80px;
+.bg{
     background-color: rgba(0, 0, 0, 0.89);
 }
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+  } 
 .navbar-nav{
     margin: auto;
 }
-.nav-link{
+.navbar-light-active-color{
     color: white;
 }
 .navbar-brand{
-    color:rgba(252, 172, 0, 0.897);
+     color:rgba(252, 172, 0, 0.897); 
 }
 .navbar-brand:hover{
-    color: rgba(252, 172, 0, 0.897);
+     color: rgba(252, 172, 0, 0.897); 
 }
+.nav-link{
+    font-size: 18px;
+    z-index: 100000;
+     color: white
+}
+.fas{
+    color: white;
+}
+
 .nav-link:hover{
-    color: rgba(252, 172, 0, 0.897);
+    color: rgba(252, 172, 0, 0.897); 
+    z-index: 100;
 }
 .navbar-brand{
     font-size: 30px;
@@ -55,23 +66,6 @@ body{
     height: 600px;
     object-fit: cover;
 }
-/* .navegacion{
-    list-style: none;
-    width: 50%;
-    margin: auto
-} */
-   
-      
-        
-
-/* li{
-    display: inline;
-    margin: 2%;
-} */
-
-/* a{
-    text-decoration: none;
-} */
 .carrousel{
     display: flex;
     overflow-x: scroll;
@@ -132,7 +126,25 @@ body{
     grid-gap: 2%;
     
 }
-.galeriaTazas{
+.cardTazas{
+    display: flex;
+    column-gap: 2%;
+    justify-content: center;
+    margin-top: 5%;
+}
+.productosTaza{
+    text-align: center;
+    margin-top: 4%;
+}
+.productosCuadros{
+    text-align: center;
+    margin-top: 4%;
+}
+.productosFotos{
+    text-align: center;
+    margin-top: 4%;
+}
+/* .galeriaTazas{
     
     width: 100%;
     height: 100%;
@@ -147,7 +159,7 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover
-}
+} */
 
 @media only screen and (max-width: 780px) {
     .contenedorPadre{
@@ -166,7 +178,6 @@ body{
         padding-top: 4%;
     }
 }
-
 
 footer{
     display: flex;
@@ -194,54 +205,3 @@ color: blue;
 .instagram:hover{
     color:rgb(243, 141, 243)
 }
-
-
-
-
-
-
-
-
-
-
-
-   /* .galeriaTazas{
-        width: 18%;
-        position: relative;
-        left: 310px;
-        
-    }
-    .galeriaCuadros{
-        width: 18%;
-        position: relative;
-        left: 310px;
-    }
-    .galeriaFotos{
-        width: 18%;
-        position: relative;
-        left: 310px; 
-    }
-    .textoPresentacion{
-        text-align: start;
-    }
-    .formularioNombre{
-        position: relative;
-        left: 500px;
-        top: 20px;
-    }
-    .formularioEmail{
-        position: relative;
-        left: 500px;
-        top: 25px;
-    }
-    .formularioTelefono{
-        position: relative;
-        left: 500px;
-        top: 30px;
-    }
-    .consulta{
-        position: relative;
-        left: 500px;
-        top: 35px;
-    }  */
-    
