@@ -1,0 +1,104 @@
+nav {
+    .bg {
+        background-color: $colorPrincipal;
+    }
+
+    &bar-nav {
+        margin: auto;
+    }
+    &bar-brand {
+        color: $colorSecundario;
+        font-size: 30px;
+
+        &:hover {
+            color: $colorSecundario;
+        }
+    }
+
+    &-link {
+        font-size: 18px;
+        color: white;
+
+        &:hover {
+            color: $colorSecundario;
+            z-index: 100;
+        }
+    }
+
+    .btn {
+        border: solid 1px white;
+        
+    }
+
+    .btn-outline {
+        color: $colorSecundario;
+    }
+        :hover {
+            color: white;
+        }
+    }
+main {
+    .carrousel {
+        width: 50%;
+
+        &-item {
+            height: 600px;
+            object-fit: cover;
+        }
+
+        .greys {
+            height: 600px;
+            object-fit: cover;
+        }
+    }
+}
+
+.productos {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.producto {
+    &Inicio {
+        display: flex;
+        column-gap: 2%;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+    &InicioDos {
+        display: flex;
+        column-gap: 2%;
+        justify-content: center;
+        margin-top: 5%;
+    }
+}
+
+footer {
+    display: flex;
+    background-color: $colorPrincipal;
+    justify-content: center;
+    height: 80px;
+    margin-top: 15%;
+
+    .redes {
+        list-style: none;
+        justify-items: center;
+        margin-top: 25px;
+
+        .instagram {
+            color: white;
+
+            :hover {
+                color: rgb(243, 141, 243);
+            }
+        }
+        .facebook {
+            color: white;
+
+            :hover {
+                color: blue;
+            }
+        }
+    }
+}

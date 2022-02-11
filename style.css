@@ -9,28 +9,19 @@ body {
     font-size: 15px;
 }
 
-.logoNav {
-    width: 50px;
-}
+/* Inicio de Nav */
 
 .bg {
     background-color: rgba(0, 0, 0, 0.89);
-}
-
-.custom-toggler.navbar-toggler {
-    border-color: rgb(255, 102, 203);
 }
 
 .navbar-nav {
     margin: auto;
 }
 
-.navbar-light-active-color {
-    color: white;
-}
-
 .navbar-brand {
     color: rgba(252, 172, 0, 0.897);
+    font-size: 30px;
 }
 
 .navbar-brand:hover {
@@ -39,21 +30,12 @@ body {
 
 .nav-link {
     font-size: 18px;
-    z-index: 100000;
-    color: white
-}
-
-.fas {
     color: white;
 }
 
 .nav-link:hover {
     color: rgba(252, 172, 0, 0.897);
     z-index: 100;
-}
-
-.navbar-brand {
-    font-size: 30px;
 }
 
 .btn {
@@ -67,6 +49,10 @@ body {
 .btn-outline:hover {
     color: white;
 }
+
+/* Finaliza Nav */
+
+/* Carrousel */
 
 .carousel {
     width: 50%;
@@ -82,17 +68,33 @@ body {
     object-fit: cover;
 }
 
-.carrouselFoto {
-    height: 350px;
-    width: 350px;
-    object-fit: cover;
-    margin: 1%;
-}
+
+/* Finaliza Carrousel */
+
+/* Titulo produductos inicio */
 
 .productos {
     text-align: center;
     margin-top: 5%;
 }
+
+/* Card productos inicio */
+
+.productoInicio {
+    display: flex;
+    column-gap: 2%;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.productoInicioDos {
+    display: flex;
+    column-gap: 2%;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+/* Cart productos */
 
 .cardTazas {
     display: flex;
@@ -143,21 +145,6 @@ body {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.527);
 
 }
-
-.productoInicio {
-    display: flex;
-    column-gap: 2%;
-    justify-content: center;
-    margin-top: 5%;
-}
-
-.productoInicioDos {
-    display: flex;
-    column-gap: 2%;
-    justify-content: center;
-    margin-top: 5%;
-}
-
 .form-contact {
     background-color: rgba(247, 178, 30, 0.925);
     width: 60%;
@@ -197,18 +184,17 @@ footer {
     margin-top: 25px;
 }
 
-.facebook {
-    color: white;
-}
-
-.facebook:hover {
-    color: blue;
-}
-
 .instagram {
     color: white
+}
+.facebook {
+    color: white;
 }
 
 .instagram:hover {
     color: rgb(243, 141, 243)
 }
+.facebook:hover {
+    color: blue;
+}
+

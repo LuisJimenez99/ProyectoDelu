@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  top: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  height: 100vh;
+  font-family: 'Playfair Display', serif;
+  font-size: 15px; }
+
+nav .bg {
+  background-color: rgba(0, 0, 0, 0.89); }
+
+navbar-nav {
+  margin: auto; }
+
+navbar-brand {
+  color: rgba(252, 172, 0, 0.897);
+  font-size: 30px; }
+  navbar-brand:hover {
+    color: rgba(252, 172, 0, 0.897); }
+
+nav-link {
+  font-size: 18px;
+  color: white; }
+  nav-link:hover {
+    color: rgba(252, 172, 0, 0.897);
+    z-index: 100; }
+
+nav .btn {
+  border: solid 1px white; }
+
+nav .btn-outline {
+  color: rgba(252, 172, 0, 0.897); }
+
+nav :hover {
+  color: white; }
+
+main .carrousel {
+  width: 50%; }
+  main .carrousel-item {
+    height: 600px;
+    object-fit: cover; }
+  main .carrousel .greys {
+    height: 600px;
+    object-fit: cover; }
+
+.productos {
+  text-align: center;
+  margin-top: 5%; }
+
+.productoInicio {
+  display: flex;
+  column-gap: 2%;
+  justify-content: center;
+  margin-top: 5%; }
+
+.productoInicioDos {
+  display: flex;
+  column-gap: 2%;
+  justify-content: center;
+  margin-top: 5%; }
+
+footer {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.89);
+  justify-content: center;
+  height: 80px;
+  margin-top: 15%; }
+  footer .redes {
+    list-style: none;
+    justify-items: center;
+    margin-top: 25px; }
+    footer .redes .instagram {
+      color: white; }
+      footer .redes .instagram :hover {
+        color: #f38df3; }
+    footer .redes .facebook {
+      color: white; }
+      footer .redes .facebook :hover {
+        color: blue; }
