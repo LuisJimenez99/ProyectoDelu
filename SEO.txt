@@ -1,0 +1,17 @@
+Se incluyeron Seo en
+
+        Index: <meta name="keywords" content="Delu, fotos, tazas, floricienta, boku no hero, anime, pulseras, dory, nemo, pulseras de la distancia, productos personalizados" > 
+        <meta name="description" content="Aqui podrás encontrar los mejores productos personalizados de la mas grande calidad y variedades desde fotos hasta pulseras, hecha para y por ustedes" > 
+
+        contacto: <meta name="keywords" content="Delu, fotos, tazas, floricienta, boku no hero, anime, pulseras, dory, nemo, pulseras de la distancia, productos personalizados, formulario, contacto" 
+
+        productos:     <meta name="keywords" content="Delu, fotos, tazas, floricienta, boku no hero, anime, pulseras, dory, nemo, pulseras de la distancia, productos personalizados, productos, dia de la madre, mapa estelar, estrellas, mapa personalizado, mapa estelar personalizado, fotos polaroid, fotos con 10 idiomas, fotos diez por diez, constelaciones, mamá" > 
+
+         sobre nosotros:     <meta name="keywords" content="Delu, fotos, tazas, floricienta, boku no hero, anime, pulseras, dory, nemo, pulseras de la distancia, productos personalizados, sobre nosotros, quienes somos" > 
+
+        precios:     <meta name="keywords" content="Delu, fotos, tazas, floricienta, boku no hero, anime, pulseras, dory, nemo, pulseras de la distancia, productos personalizados, precios, cuadros" > 
+
+
+        Cambie titulos de los 4 html 
+
+        cree un mixin y una get map para reutilizar en el codigo como tambien asi un mapa

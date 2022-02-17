@@ -1,6 +1,6 @@
 nav {
     .bg {
-        background-color: $colorPrincipal;
+        background-color: map-get($colores , bg );
     }
 
     &bar-nav {
@@ -60,17 +60,11 @@ main {
 
 .producto {
     &Inicio {
-        display: flex;
-        column-gap: 2%;
-        justify-content: center;
-        margin-top: 5%;
+        @include flexbox (2%, center, 5%)
     }
 
     &InicioDos {
-        display: flex;
-        column-gap: 2%;
-        justify-content: center;
-        margin-top: 5%;
+        @extend %cardflex;
     }
 }
 
@@ -90,14 +84,14 @@ footer {
             color: white;
 
             :hover {
-                color: rgb(243, 141, 243);
+                color: map-get($colores , redes-ig )
             }
         }
         .facebook {
             color: white;
 
             :hover {
-                color: blue;
+                color: map-get($colores , redes-fb );
             }
         }
     }

@@ -56,17 +56,10 @@ body {
 
 .carousel {
     width: 50%;
-}
-
-.carousel-item {
-    height: 600px;
     object-fit: cover;
 }
 
-.greys {
-    height: 600px;
-    object-fit: cover;
-}
+
 
 
 /* Finaliza Carrousel */

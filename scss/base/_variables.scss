@@ -1,2 +1,24 @@
 $colorPrincipal: rgba(0, 0, 0, 0.89); 
 $colorSecundario: rgba(252, 172, 0, 0.897);
+
+$colores: (
+bg: rgba(0, 0, 0, 0.89),
+redes-ig: rgb(243, 141, 243),
+redes-fb: blue 
+);
+
+%cardflex{
+    display: flex;
+    column-gap: 2%;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+
+
+@mixin flexbox ($gap, $justify, $margin) {
+    display: flex;
+    column-gap: $gap;
+    justify-content: $justify;
+    margin-top: $margin;
+}

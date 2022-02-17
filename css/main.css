@@ -1,3 +1,9 @@
+.productoInicioDos {
+  display: flex;
+  column-gap: 2%;
+  justify-content: center;
+  margin-top: 5%; }
+
 * {
   margin: 0;
   top: 0; }
@@ -52,12 +58,6 @@ main .carrousel {
   margin-top: 5%; }
 
 .productoInicio {
-  display: flex;
-  column-gap: 2%;
-  justify-content: center;
-  margin-top: 5%; }
-
-.productoInicioDos {
   display: flex;
   column-gap: 2%;
   justify-content: center;
