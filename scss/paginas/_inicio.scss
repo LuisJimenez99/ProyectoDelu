@@ -1,21 +1,21 @@
+.bg {
+    background-color: $colorPrincipal;
+}
 nav {
-    .bg {
-        background-color: map-get($colores , bg );
-    }
-
-    &bar-nav {
-        margin: auto;
-    }
-    &bar-brand {
-        color: $colorSecundario;
-        font-size: 30px;
-
-        &:hover {
+    .navbar {
+        &-nav {
+            margin: auto;
+        }
+        &-brand {
             color: $colorSecundario;
+            font-size: 30px;
+
+            &:hover {
+                color: $colorSecundario;
+            }
         }
     }
-
-    &-link {
+    .nav-link {
         font-size: 18px;
         color: white;
 
@@ -24,33 +24,22 @@ nav {
             z-index: 100;
         }
     }
-
     .btn {
         border: solid 1px white;
-        
-    }
-
-    .btn-outline {
-        color: $colorSecundario;
-    }
-        :hover {
-            color: white;
+        &-outline {
+            color: $colorPrincipal;
+            :hover {
+                color: white;
+            }
         }
     }
-main {
-    .carrousel {
-        width: 50%;
-
-        &-item {
-            height: 600px;
-            object-fit: cover;
-        }
-
-        .greys {
-            height: 600px;
-            object-fit: cover;
-        }
-    }
+}
+.fas{
+    color: white;
+}
+.carousel{
+    width:65%;
+    object-fit: cover;
 }
 
 .productos {
@@ -60,7 +49,7 @@ main {
 
 .producto {
     &Inicio {
-        @include flexbox (2%, center, 5%)
+        @include flexbox(2%, center, 5%);
     }
 
     &InicioDos {
@@ -84,14 +73,14 @@ footer {
             color: white;
 
             :hover {
-                color: map-get($colores , redes-ig )
+                color: map-get($colores, redes-ig);
             }
         }
         .facebook {
             color: white;
 
             :hover {
-                color: map-get($colores , redes-fb );
+                color: map-get($colores, redes-fb);
             }
         }
     }

@@ -1,0 +1,24 @@
+.form-contact {
+    background-color: $colorSecundario;
+    width: 60%;
+    height: 52%;
+    margin-top: 1.5%;
+    padding-top: 3%;
+    margin-left: 20%;
+    padding-left: 11%;
+    box-shadow: 7px 17px 37px $colorPrincipal;
+
+    .contact {
+        padding: 13px;
+        overflow: hidden;
+        color: $colorPrincipal;
+
+        label,
+        & input,
+        & textarea {
+            display: block;
+            width: 70%;
+            margin-bottom: 10px;
+        }
+    }
+}

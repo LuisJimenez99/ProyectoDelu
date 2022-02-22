@@ -1,0 +1,45 @@
+.cardTazas{
+    display: flex;
+    justify-content: center;
+    
+}
+.cardCuadros{
+    display: flex;
+    justify-content: center;
+    
+}
+.cardFotos{
+    display: flex;
+    justify-content: center;
+}
+.card {
+    margin: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.527);
+    overflow: hidden;
+}
+.card:hover .card-img-top {
+    -webkit-transform: scale(0.93);
+    transform: scale(0.93);
+}
+.productosTaza{
+    @extend %titulos
+}
+.productosCuadros{
+    @extend %titulos
+}
+.productosFotos{
+    @extend %titulos
+}
+
+.btn {
+    background-color: $colorSecundario;
+    color: $colorPrincipal;
+    border: solid 1px;
+    &:hover {
+        color: white;
+        background-color: $colorPrincipal;
+        border: solid 1px $colorSecundario;
+    }
+}
+
