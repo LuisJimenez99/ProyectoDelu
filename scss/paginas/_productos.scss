@@ -1,41 +1,49 @@
-.cardTazas{
-    display: flex;
-    justify-content: center;
-        @media screen and (max-width: 576px) {
-            display: block;
-            margin: auto;
-            border: solid 2px red;
-        }
+.cardTazas {
+    @extend %centrar;
     
+    @media screen and (max-width: 576px) {
+        display: block;
+    }
 }
-.cardCuadros{
-    display: flex;
-    justify-content: center;
-    
+.cardCuadros {
+    @extend %centrar;
+
+    @media screen and (max-width: 576px) {
+        display: block;
+    }
 }
-.cardFotos{
-    display: flex;
-    justify-content: center;
+.cardFotos {
+    @extend %centrar;
+
+    @media screen and (max-width: 576px) {
+        display: block;
+    }
 }
 .card {
     margin: 20px;
     text-align: center;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.527);
-    overflow: hidden;       
-        
+    overflow: hidden;
+
+    &:hover .card-img-top {
+        -webkit-transform: scale(0.93);
+        transform: scale(0.93);
+    }
+
+    @media screen and (max-width: 576px) {
+        margin: auto;
+        margin-top: 5%;
+    }
 }
-.card:hover .card-img-top {
-    -webkit-transform: scale(0.93);
-    transform: scale(0.93);
+
+.productosTaza {
+    @extend %titulos;
 }
-.productosTaza{
-    @extend %titulos
+.productosCuadros {
+    @extend %titulos;
 }
-.productosCuadros{
-    @extend %titulos
-}
-.productosFotos{
-    @extend %titulos
+.productosFotos {
+    @extend %titulos;
 }
 
 .btn {
@@ -48,4 +56,3 @@
         border: solid 1px $colorSecundario;
     }
 }
-

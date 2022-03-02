@@ -8,7 +8,7 @@
   text-align: center;
   margin-top: 4%; }
 
-.contenedorVideos, .botonTiktok {
+.contenedorVideos, .botonTiktok, .cardTazas, .cardCuadros, .cardFotos {
   display: flex;
   justify-content: center; }
 
@@ -116,32 +116,30 @@ footer {
       footer .redes .whatsapp :hover {
         color: #25D366; }
 
-.cardTazas {
-  display: flex;
-  justify-content: center; }
-  @media screen and (max-width: 576px) {
-    .cardTazas {
-      display: block;
-      margin: auto;
-      border: solid 2px red; } }
+@media screen and (max-width: 576px) {
+  .cardTazas {
+    display: block; } }
 
-.cardCuadros {
-  display: flex;
-  justify-content: center; }
+@media screen and (max-width: 576px) {
+  .cardCuadros {
+    display: block; } }
 
-.cardFotos {
-  display: flex;
-  justify-content: center; }
+@media screen and (max-width: 576px) {
+  .cardFotos {
+    display: block; } }
 
 .card {
   margin: 20px;
   text-align: center;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.527);
   overflow: hidden; }
-
-.card:hover .card-img-top {
-  -webkit-transform: scale(0.93);
-  transform: scale(0.93); }
+  .card:hover .card-img-top {
+    -webkit-transform: scale(0.93);
+    transform: scale(0.93); }
+  @media screen and (max-width: 576px) {
+    .card {
+      margin: auto;
+      margin-top: 5%; } }
 
 .btn {
   background-color: rgba(252, 172, 0, 0.897);
