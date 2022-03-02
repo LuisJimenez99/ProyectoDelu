@@ -1,6 +1,11 @@
 .cardTazas{
     display: flex;
     justify-content: center;
+        @media screen and (max-width: 576px) {
+            display: block;
+            margin: auto;
+            border: solid 2px red;
+        }
     
 }
 .cardCuadros{
@@ -16,7 +21,8 @@
     margin: 20px;
     text-align: center;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.527);
-    overflow: hidden;
+    overflow: hidden;       
+        
 }
 .card:hover .card-img-top {
     -webkit-transform: scale(0.93);

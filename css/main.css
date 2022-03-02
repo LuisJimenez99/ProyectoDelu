@@ -119,6 +119,11 @@ footer {
 .cardTazas {
   display: flex;
   justify-content: center; }
+  @media screen and (max-width: 576px) {
+    .cardTazas {
+      display: block;
+      margin: auto;
+      border: solid 2px red; } }
 
 .cardCuadros {
   display: flex;
