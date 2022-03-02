@@ -4,7 +4,9 @@ $colorSecundario: rgba(252, 172, 0, 0.897);
 $colores: (
 bg: rgba(0, 0, 0, 0.89),
 redes-ig: rgb(243, 141, 243),
-redes-fb: blue
+redes-fb: blue,
+redes-wp:#25D366
+
 );
 
 %cardflex{
@@ -18,7 +20,10 @@ redes-fb: blue
     text-align: center;
     margin-top: 4%;
 }
-
+%centrar{
+    display: flex;
+    justify-content: center;
+}
 
 @mixin flexbox ($gap, $justify, $margin) {
     display: flex;

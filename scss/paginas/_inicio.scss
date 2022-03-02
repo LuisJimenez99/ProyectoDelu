@@ -34,14 +34,26 @@ nav {
         }
     }
 }
-.fas{
+.fas {
     color: white;
 }
-.carousel{
-    width:65%;
+.carousel {
+    width: 65%;
     object-fit: cover;
 }
-
+.contenedorVideos {
+    @extend %centrar;
+    cursor: none;
+    :hover {
+        -webkit-transform: scale(1);
+        transform: scale(1.1);
+        box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.527);
+    }
+}
+.botonTiktok {
+    @extend %centrar;
+    margin-top: 2%;
+}
 .productos {
     text-align: center;
     margin-top: 5%;
@@ -50,10 +62,28 @@ nav {
 .producto {
     &Inicio {
         @include flexbox(2%, center, 5%);
+        @media screen and (max-width: 576px) {
+            display: block;
+        }
+        .card {
+            @media screen and (max-width: 576px) {
+                margin: auto;
+                margin-top: 20px;
+            }
+        }
     }
 
     &InicioDos {
         @extend %cardflex;
+        @media screen and (max-width: 576px) {
+            display: block;
+        }
+        .card {
+            @media screen and (max-width: 576px) {
+                margin: auto;
+                margin-top: 20px;
+            }
+        }
     }
 }
 
@@ -81,6 +111,13 @@ footer {
 
             :hover {
                 color: map-get($colores, redes-fb);
+            }
+        }
+        .whatsapp {
+            color: white;
+
+            :hover {
+                color: map-get($colores, redes-wp);
             }
         }
     }

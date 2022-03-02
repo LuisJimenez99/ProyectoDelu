@@ -8,6 +8,10 @@
   text-align: center;
   margin-top: 4%; }
 
+.contenedorVideos, .botonTiktok {
+  display: flex;
+  justify-content: center; }
+
 * {
   margin: 0;
   top: 0; }
@@ -53,6 +57,16 @@ nav .btn {
   width: 65%;
   object-fit: cover; }
 
+.contenedorVideos {
+  cursor: none; }
+  .contenedorVideos :hover {
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.527); }
+
+.botonTiktok {
+  margin-top: 2%; }
+
 .productos {
   text-align: center;
   margin-top: 5%; }
@@ -62,6 +76,22 @@ nav .btn {
   column-gap: 2%;
   justify-content: center;
   margin-top: 5%; }
+  @media screen and (max-width: 576px) {
+    .productoInicio {
+      display: block; } }
+  @media screen and (max-width: 576px) {
+    .productoInicio .card {
+      margin: auto;
+      margin-top: 20px; } }
+
+@media screen and (max-width: 576px) {
+  .productoInicioDos {
+    display: block; } }
+
+@media screen and (max-width: 576px) {
+  .productoInicioDos .card {
+    margin: auto;
+    margin-top: 20px; } }
 
 footer {
   display: flex;
@@ -81,6 +111,10 @@ footer {
       color: white; }
       footer .redes .facebook :hover {
         color: blue; }
+    footer .redes .whatsapp {
+      color: white; }
+      footer .redes .whatsapp :hover {
+        color: #25D366; }
 
 .cardTazas {
   display: flex;
