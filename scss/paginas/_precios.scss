@@ -11,3 +11,28 @@
     text-align: center;
     margin-top: 1%;
 }
+.title{
+    font-size: 30px;
+}
+.text{
+    font-size: 18px;
+}
+.cont_precios{
+     @extend %centrar;
+     @media screen and (max-width: 840px) {
+        display: block;
+    }
+}
+.cont_precios_dos{
+    @extend %centrar;
+    @media screen and (max-width: 840px) {
+        display: block;
+            
+    }
+}
+.card{
+    @media screen and (max-width: 840px) {
+        margin: auto;
+        margin-top: 5%;
+    }
+}
