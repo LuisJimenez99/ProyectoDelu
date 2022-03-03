@@ -1,36 +1,33 @@
-
-.container{
+.container {
     text-align: center;
     margin-top: 10%;
-    
 }
-.col{
+.col {
     margin-top: 5%;
 }
-.tit_precio{
+.tit_precio {
     text-align: center;
     margin-top: 1%;
 }
-.title{
+.title {
     font-size: 30px;
 }
-.text{
+.text {
     font-size: 18px;
 }
-.cont_precios{
-     @extend %centrar;
-     @media screen and (max-width: 840px) {
-        display: block;
-    }
-}
-.cont_precios_dos{
+.cont_precios {
     @extend %centrar;
     @media screen and (max-width: 840px) {
         display: block;
-            
     }
 }
-.card{
+.cont_precios_dos {
+    @extend %centrar;
+    @media screen and (max-width: 840px) {
+        display: block;
+    }
+}
+.card {
     @media screen and (max-width: 840px) {
         margin: auto;
         margin-top: 5%;

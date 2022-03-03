@@ -1,17 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
-
 .contenedor {
   max-width: 1170px;
   margin: 0 auto 1rem;
   padding: 1.5rem;
-  
+
   @media screen and (max-width: 1440px) {
-    margin-top: 200px;  
+    margin-top: 200px;
   }
 }
-.titulo-contactanos{
-  @extend %centrar
+.titulo-contactanos {
+  @extend %centrar;
 }
 h3 {
   @media screen and(min-width: $bk1) {
